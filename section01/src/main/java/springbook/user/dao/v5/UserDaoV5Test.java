@@ -23,5 +23,8 @@ public class UserDaoV5Test {
         System.out.println("user2.password = " + user2.getPassword());
 
         System.out.println(user2.getId() + " 조회 성공");
+
+        dao.delete("whiteship");
+        System.out.println(user.getId() + " 삭제 성공");
     }
 }
